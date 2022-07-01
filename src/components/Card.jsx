@@ -22,15 +22,15 @@ const Card = ({user}) => {
           <h3>
             <span>{title}</span> <span>{first}</span> <span>{last}</span>
           </h3>
-          <div className="svg">
+          <div className="png">
             <img src={emailsvg} alt="email" />
           </div>
           <h4>{email}</h4>
-          <div className="svg">
+          <div className="png">
             <img src={phonesvg} alt="phone" />
           </div>
           <h4>{phone}</h4>
-          <div className="svg">
+          <div className="png">
             <img src={locationsvg} alt="location" />
           </div>
           <h4><span>{country}</span> <span>{city}</span></h4>
