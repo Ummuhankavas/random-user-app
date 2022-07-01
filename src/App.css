@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: var(--color2);
+    margin: auto;
+  }
+
+
+
+.App {
+    text-align: center;
+    width: 500px;
+    height: 400px;
+    background-image: radial-gradient(circle, var(--color2), var(--color3));
+    font-family: 'Roboto Mono', monospace;
+    border-radius: 10px;
+
+}
+
+.button {
+    padding: 0.6rem;
+    margin:15rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #95d8ff;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 2rem;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+    height: 5rem;
+
+}
+.button:hover{
+    background-color: rgb(175, 174, 174);
+    color: black;
+}
